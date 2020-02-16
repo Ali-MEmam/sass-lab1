@@ -1,0 +1,16 @@
+.about{
+    text-align: center;
+    padding: 7rem 0;
+    background: $linear,url(../../images/texture.jpg);
+    color: #cecece;
+    font-weight: 300;
+    background-attachment: fixed;
+    &-header{
+        margin-bottom: 3rem;
+    }
+    &-body{
+        margin: 0 auto;
+        line-height: 1.7;
+        width: 80%;
+    }
+}

@@ -1,0 +1,47 @@
+.blog{
+    text-align: center;
+    padding: 7rem 0;
+    background-image:linear-gradient(to top, #ffffff, #63636300),url(../../images/texture.jpg);
+    background-attachment: fixed;
+    &-header{
+        margin-top: 3rem;
+        font-size: 2.7rem;
+    }
+    &-body{
+        width: 80%;
+        margin: 3rem auto;
+    }
+    &-container{
+        margin-top: 8rem;
+        display: flex;
+        justify-content: space-between;
+        &__box{
+            flex: 0 1 24%;
+            padding: 6rem 2rem;
+            display: flex;
+            box-shadow: 0px 2px 8px #dadada;
+            background-color: #ffffff;
+            flex-direction: column;
+            &-body{
+                border-left: 11px solid $mainColor;
+                text-align: start;
+                padding: 1rem;
+            }
+            &-footer{
+                text-align: start;
+                display: flex;
+                margin-top: 3rem;
+                align-items: center;
+                &--photo{
+                    border-radius: 50%;
+                    margin-right: 2rem;
+                    width: 50px;
+                }
+                &--name{
+                    color: $mainColor;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

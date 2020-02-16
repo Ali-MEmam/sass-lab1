@@ -1,0 +1,27 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95.5vh;
+    text-align: center;
+    background:$linear, url(../../images/city.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    &-header{
+        margin-bottom: 2rem;
+        letter-spacing: 1px;
+        font-size: 6rem;
+        font-weight: 300;
+    
+    }
+    &-body{
+        width: 60%;
+        margin: 0 auto;
+        line-height: 1.6;
+        font-size: 1.6rem;
+        color: #ffffff73;
+        font-weight: 900;
+    }
+}

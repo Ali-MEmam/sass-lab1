@@ -1,0 +1,15 @@
+.navbar{
+    background-color: black;
+    padding: 1rem;
+    &-list{
+        list-style: none;
+        display: flex;
+        &__item{
+            margin-right: 4rem;
+            &-link{
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}

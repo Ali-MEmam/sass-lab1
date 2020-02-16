@@ -1,0 +1,37 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8rem 0;
+    background-image:linear-gradient(to top, #ffffff, #63636300),url(../../images/texture.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    &-mainheader{
+margin-bottom: 3rem;
+    }
+    &-subheader{
+        width: 70%;
+        margin: 0 auto;
+        line-height: 1.5;
+    }
+    &-container{
+        display: flex;
+        margin-top: 7rem;
+        justify-content: space-evenly;
+        &__box{
+            flex: 0 1 24%;
+            padding: 6rem 2rem;
+            display: flex;
+            box-shadow: 0px 2px 8px #dadada;
+            flex-direction: column;
+            background-color: #ffffff;
+            &-header{
+                color: #d4d4d4;
+                margin: 2rem 0;
+            }
+            
+        }
+    }
+}
